@@ -1,0 +1,8 @@
+fastapi
+uvicorn
+aiohttp
+python-dotenv
+edge-tts
+google-transliteration-api
+google-genai
+pydantic

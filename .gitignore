@@ -1,0 +1,33 @@
+# Environment variables — never commit real secrets
+.env
+.env.local
+.env.production
+
+# Python virtual environment
+senv/
+venv/
+env/
+__pycache__/
+*.pyc
+*.pyo
+
+# Database
+*.db
+database/
+
+# Generated audio and image files (test outputs)
+*.mp3
+*.wav
+*.jpg
+*.jpeg
+*.png
+
+# Session reports (analytics output)
+session_report_*.json
+
+# Claude Code local settings
+.claude/
+
+# OS files
+.DS_Store
+Thumbs.db
